@@ -22,7 +22,6 @@ noahzimmerman@MacBookAir waystation % nano README.md
 
 
 
-  UW PICO 5.09                    File: README.md                     Modified  
 
 # WayStation (Prototype)
 
@@ -43,6 +42,3 @@ Early prototype - core scenes and systems under development
 ### Built With
 - Godot Engine 4.4.1
 - GDScript
-
-^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Pg   ^K Cut Text  ^C Cur Pos   
-^X Exit      ^J Justify   ^W Where is  ^V Next Pg   ^U UnCut Text^T To Spell  
