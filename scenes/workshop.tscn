@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://dw5npsbd5i3vt"]
+[gd_scene load_steps=2 format=3 uid="uid://dw5npsbd5i3vt"]
+
+[ext_resource type="PackedScene" uid="uid://c8alj34772b60" path="res://scenes/player.tscn" id="1_d7fqo"]
 
 [node name="workshop" type="Node2D"]
 
@@ -6,5 +8,13 @@
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 4.0
+offset_top = -1.0
+offset_right = 1284.0
+offset_bottom = 719.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(0.115748, 0.101833, 0.0802348, 1)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_d7fqo")]
+position = Vector2(562, 348)
